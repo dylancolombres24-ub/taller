@@ -1,0 +1,30 @@
+body {
+    front-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CLase: Heroe */
+.bg-comic {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+
+/* clase: transicion y visual en tarjetas */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2) !important;
+}
+
+/* estilo imagen destacada */
+.img-destacada {
+    border: 3px solid #ffc107;
+    transition: opacity 0.3s ease
+}
+
+.img-destacada:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widcht, initial-scale=1.0">
+    <title>MundoComic - Inicio</title>
+    <!-- Bootstrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/estilos.css"> 
+</head>
+<body class="bg-dark text-light">
+    <!--- Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-warning">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning fs-3" href="index.html">MundoComic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-togglet-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="collapse navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalogo.html">Catalogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Seccion de Heroes -->
+     <header class="py-5 text-center bg-comic">
+        <div class="container my-4">
+            <h1 class="display-3 fw-bold text-warning mb-3">Universo de Viñetas</h1>
+            <p class="lead mb-4">Descubre o relee las mejores hstorias, clasicos memorables y las recientes novedades de MundoComic.</p>
+            <a href="catalogo.html" class="btn btn-warning btr-lg fw-bold px-4 me-2">Ver Catalogo</a>
+            <a href="https://www.marvel.com" target="_blank" rel="nooponer" class="btn btn-outline-light btn-lg px-4">Marvel Oficial</a>
+        </div>
+     </header>
+    <!-- Seccion Principal -->
+     <main class="container my-5">
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-6">
+                <!-- Imagen 1-->
+                 <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop" class="img-fliud rounded shadow-lg img-destacada" alt="Coleccion de comics">
+            </div>
+            <div class="col-md-6">
+                <h2 class="h1 text-warning mb-3">¿Que hay en MundoComic?</h2>
+                <p>Somos apasionados por el noveno arte. Curamos las publicaciones mas iconicas de editoriales independientes y grandes mltinacionales.</p>
+
+                <!-- Lista Desordenada -->
+                 <ul class="list-nstyled">
+                    <li class="mb-2"> Reseñas detelladas de arcos argumentales.</li>
+                    <li class="mb-2"> Recomendaciones semanales pr genero.</li>
+                    <li class="mb-2"> Guias de lectura para nuevos lectores.</li>
+                 </ul>
+            </div>
+        </div>
+
+        <!-- Categorias -->
+         <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white border-0 shadow card-hove h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-warning">Superheroes</h3>
+                        <p class="card-text">Las aventuras de los personajes mas poderosos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white border-0 shadow card-hover h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-warning">Ciencia Ficcion</h3>
+                        <p class="card-text">Viajes en el tiempo, distopias futuras y exploraciones espaciales.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary text-white border-0 shadow card-hover h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-warning">Novelas Graficas</h3>
+                        <p class="card-text">Obras autoconclusivas con relatos profundos y arte de autor.</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </main>
+
+ <!-- Encabezado -->
+     <header class=" py-4 bg-comic text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-warning">Ponete en Contacto</h1>
+            <p class="lead text-light">¿Tenes dudas, queres pedir un Comic o sumarte al club de lectura? Escribenos.</p>
+        </div>
+     </header>
+
+     <!-- Contenido Princial -->
+      <main class="container my-5">
+        <div class="row g-5">
+
+            <!-- Columna del formulario -->
+             <div class="col-lg-7">
+                <div class="bg-secondary p-4 p-md-5 rounded shadow">
+                    <h2 class="h3 text-warning mb-4">Envianos tu mensaje </h2>
+
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label font-weight-bold">Nombre Completo</label>
+                            <input type="text" class="form-control bg-dark text-light border-secondary" id="email" placeholder="Ej: Peter Parker" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control bg-dark text-light border-secondary" id="email" placeholder="aguilatuerta@gmail.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <select class="form-select bg-dark text-light border-secondary" id="asunto">
+                                <option value="consulta">Consulta general</option>
+                                <option value="Pedido">Pedido especial de comic</option>
+                                <option value="club">Club de lectura</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control bg-dark text-light border-secondary" id="mensaje" rows="4" placeholder="Escribe tu mensaje aqui..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning w-100 fw-bold py-2 mt-2">Enviar mensaje</button>
+                    </form>
+                </div>
+             </div>
+
+             <!-- Columna de Informacion -->
+              <div class="col-lg-5">
+                <div class="bg-black p-4 rounded border border-secondary h-100 d-flex flex-column justify-content-between">
+                </div>
+                <h3 class="h4 text-warning mb-3">Informacion de la tienda</h3>
+                <p class="text-secondary">Visita nuestra sucursal central o conectate con nosotros a traves de nuestras plataformas digtales.</p>
+
+                <!-- Lista de datos de contacto -->
+                 <ul- class="list-unstyled my-4">
+                    <li class="mb-3">
+                        <strong class="text-warning"> Direccion:</strong> Av. Siempre viva 742, Ciudad Comic
+                    </li>
+                    <li class="mb-3">
+                        <strong class="text-warning"> Telefono:</strong> +54 3865 656 211
+                    </li>
+                    <li class="mb-3">
+                        <strong class="text-warning"> Email:</strong> aguilatuerta@gmail.com
+                    </li>
+                    <li class="mb-3">
+                        <strong class="text-warning"> Horarios:</strong> Lunes a Viernes de 9:00 a 20:00 hs
+                    </li>
+                 </ul->
+              </div>
+
+              <div>
+                <h4 class="h5 text-warning mb-3">Enlaces Oficiales</h4>
+                <ul class="list-unstyled d-flex gap-3">
+                    <li><a href="https://www.marvel.com" target="_blank" rel="nooponer" class="text-light text-decoration-none">Marvel</a></li>
+                    <li><a href="https://www.dc.com" target="_blank" rel="nooponer" class="text-light text-decoration-none">DC Comics</a></li>
+                    <li><a href="https://imagecomics.com" target="_blank" rel="nooponer" class="text-light text-decoration-none">Image Comic</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+
+      <!-- Script Bootstraps -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
